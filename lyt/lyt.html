@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林鈺婷的網站!</title>
+    
+    <link rel="stylesheet" href="lyt.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        
+
+</head>
+<body>
+    <div class="contaier">
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="輸入交往日期"required>
+                    <i class='bx bxs-calendar-heart'></i>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="輸入生日或特別數字"required>
+                    <i class='bx bx-ghost' ></i>
+                </div>
+                <div class="forgot">
+                    <a href="#" onclick="clock()"> 想知道特別數字?</a>
+                    <i class='bx bxs-extension' ></i>
+                </div>
+                <button type="submit" class="btn" onclick="s()">點選查看當日日期</button>
+                <br>
+                <br>
+                <button type="submit" class="btn">進入世界吧!</button>
+                <i class='bx bxs-florist' ></i>
+            </form>
+            <div id="clock">
+
+            </div>
+        </div>    
+    </div>
+    
+
+
+    <script src="lyt.js"></script>
+</body>
+</html>
