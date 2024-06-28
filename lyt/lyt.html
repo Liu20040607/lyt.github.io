@@ -18,21 +18,26 @@
             <form action="">
                 <h1>Login</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="輸入交往日期"required>
+                    <input type="text" placeholder="輸入交往日期" id="text">
                     <i class='bx bxs-calendar-heart'></i>
                 </div>
                 <div class="input-box">
-                    <input type="text" placeholder="輸入生日或特別數字"required>
+                    <input type="text" placeholder="輸入生日或特別數字"id="pass">
                     <i class='bx bx-ghost' ></i>
                 </div>
                 <div class="forgot">
-                    <a href="#" onclick="clock()"> 想知道特別數字?</a>
+                    <a href="#" onclick="clock()" style="text-decoration:none;"> 想知道特別數字?</a>
                     <i class='bx bxs-extension' ></i>
                 </div>
                 <button type="submit" class="btn" onclick="s()">點選查看當日日期</button>
                 <br>
                 <br>
-                <button type="submit" class="btn">進入世界吧!</button>
+                <button type="submit" class="btn">
+                    <a id="no5" style="text-decoration:none;">煙花特效</a>
+                </button>
+                <br>
+                <br>
+                <button type="submit" class="btn" id="go">進入世界吧!</button>
                 <i class='bx bxs-florist' ></i>
             </form>
             <div id="clock">

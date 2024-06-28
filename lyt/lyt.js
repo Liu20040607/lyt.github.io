@@ -1,3 +1,4 @@
+
 function showTime(clock) {
     var s1='2024-06-20';
     s1 = new Date(s1.replace(/-/g,"/"));
@@ -30,3 +31,21 @@ function s() {
     　var Today=new Date();
     　alert("今天日期是 " + Today.getFullYear()+ " 年 " + (Today.getMonth()+1) + " 月 " + Today.getDate() + " 日"+'又是愛你的一天喔!寶寶~');
     }
+
+no5.addEventListener("click",function(){
+    var no5=document.getElementById('no5');
+    no5.href='fire.html';
+    
+})
+go.addEventListener("click",function(){
+    var text=document.getElementById("text");
+    var pass=document.getElementById("pass");
+    
+    if(text.value!=='0620' ||(pass.value!=='0607' && pass.value!=='0321')){
+        alert('你居然輸入錯誤??(-`ェ´-╬)給我重新輸入 ');
+    }
+    else{
+        alert('登陸成功~ヾ(●゜▽゜●)♡');
+    }
+})
+
